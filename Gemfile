@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 ruby "2.1.4"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0.beta4'
+gem 'rails', '4.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.0.beta1'
+gem 'sass-rails', '~> 4.0.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -25,9 +25,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Api gems
 gem 'active_model_serializers'
 #another bug fix...
-gem 'arel', '6.0.0.beta2'
+#gem 'arel', '6.0.0.beta2'
+gem 'arel', '~> 6.0'
 
 gem 'devise'
+
+gem 'sabisu_rails', '~> 0.0.2.beta', github: "IcaliaLabs/sabisu-rails"
+gem 'compass-rails', '~> 2.0.0'
+gem 'furatto', '~>1.3.7'
+gem 'font-awesome-rails','~> 4.3.0.0'
+gem 'simple_form', '~>3.1.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

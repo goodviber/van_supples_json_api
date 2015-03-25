@@ -8,6 +8,7 @@ Things you may want to cover:
 * Ruby version 2.1.4
 
 * System dependencies
+CHECK GEMFILE FOR SABISU DEPENDENCIES
 
 * Configuration
 
