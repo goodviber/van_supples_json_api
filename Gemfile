@@ -24,6 +24,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 #Api gems
 gem 'active_model_serializers'
+#another bug fix...
+gem 'arel', '6.0.0.beta2'
+
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
