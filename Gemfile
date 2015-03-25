@@ -34,9 +34,16 @@ gem 'active_model_serializers'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-group :development, :test do
+group :development do
  gem 'sqlite3'
 end
+
+group :test do
+	gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
